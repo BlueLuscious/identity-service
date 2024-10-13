@@ -1,5 +1,5 @@
-from django.contrib import admin
 from auth_service.models import IdentityModel
+from django.contrib import admin
 
 
 @admin.register(IdentityModel)
